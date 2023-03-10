@@ -1,0 +1,17 @@
+div {
+    background-color: red;
+    width: 50%;
+    height: 100px;
+    display: inline;
+}
+
+p {
+    background-color: aqua;
+}
+
+b {
+    background-color: blueviolet;
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+}

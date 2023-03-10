@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <title>
+        Calisma Alanim
+    </title>
+</head>
+
+<body>
+    <h1>ogreniyorum html-Form</h1>
+</body>
+<!--
+Kullanıcıdan bilgi almak icin olussturulan yapılara FORM denir. 
+Form icinde textbox,button, radio button, checkbox vb elemanlar olabilir..
+FORM :tum form elemanlarını icinde barındıran tasıyıcıdır
+
+input : kullanıcıdan bilgi almak icin kullanılan form elemanlarının genel ismi
+
+FORM : en dısta 
+INPUT :icerde
+kullanacagımız elemanlar olacak
+LABEL: Kullanıcıya form elemanı ile ilgili bilgi vermek icin kullanılan eleman
+Ad Soyad -> yanına input kutucugu acar..yani textbox ın onune yazı getiriyor
+input;kullanıcının giris yapacagı kutu olusturur
+inputa type button yapınca kutucugun yanına buton olusturuyor
+ !-->
+<form action="">
+    <label>Ad Soyad</label>
+    <input type="text">
+    <input type="button" value="Kaydet"><br>
+
+    <input type="text" value="sumeyra"><br>
+
+
+</form>
+<!-- FORM ATTRIBUTE :
+    *method: genelliklepost veya get degeri alır. 
+    formdaki bilgilerin kullanıcıya hangi yontemle gonderilecegini belirler 
+    action :Form bilgiler ile sunucudaki hangi endpoint(sunucu) ilgilenecekse o belirlenir!-->
+
+<form method="get" action="https://google.com"><!--bigileri alacak yeri belirtiyoruz !-->
+    <label>Ad Soyad</label>
+    <input type="text" name="ad" placeholder="adınızı soyadınızı yazınız"><!--ad bilgisini alıyoruz!-->
+    <br>
+    <label> Email</label>
+    <input type="text" name="id"><!--id bilgisini alıyoruz!-->
+    <br>
+
+    <input type="submit" value="click"><!--submit olması lazım butonun bilgilerin gidebilmesi icin !-->
+    <br>
+    <!--NUMBER !-->
+    <label>
+        <input type="number" name="maas"><!--sadece rakam yazabiliyoruz !-->
+        <input type="submit" name="Click">
+    </label>
+    <br>
+    <!--EMAİL !-->
+    <label> email</label>
+    <input type="email" name="eposta" placeholder="email adresini yazınız"><!--sadece rakam yazabiliyoruz !-->
+    <input type="submit" name="Click">
+
+    <br>
+    <!--PASSWORD !-->
+    <label>sifre</label>
+    <input type="password" name="sifre" placeholder="sifre yazınız"><!--sadece rakam yazabiliyoruz !-->
+    <input type="submit" name="Click">
+    <br>
+    <!--SEARCH !-->
+    <label>search</label>
+    <input type="search" name="meslek" placeholder="search yazınız"><!--sadece rakam yazabiliyoruz !-->
+    <input type="submit" name="Click">
+    <br>
+    <!--SEARCH !-->
+
+    <input type="hidden" name="code" value="code yazınız"><!--sadece rakam yazabiliyoruz !-->
+    <input type="submit" value="Click">
+    <input type="reset" value="Temizle">
+    <input type="button" value="iptal">
+    <br>
+    <label for="email"> email </label>
+    <input type="email" name="eposta" placeholder="email adresini yazınız"><!--sadece rakam yazabiliyoruz !-->
+    <input type="submit" name="Click">
+    <br>
+    <!--TEXT AREA !-->
+    <label for="adres">Adres</label>
+    <textarea name="adrse" id="adres" cols="30" rows="10"></textarea>
+    <br>
+    <label for="ulke">Ulke</label>
+    <select name="ulke" id="ulke">
+        <option value="tr">Turkiye</option>
+        <option value="en">Ingiltere</option>
+        <option value="de">Almanya</option>
+    </select>
+    <br>
+    <!--FORM VALİDASYON 
+        zorunlu giris alanlaarı icin :required!-->
+    <label>Ad Soyad</label>
+    <input type="text" name="ad" required placeholder="adınızı soyadınızı yazınız">
+    <input type="submit" value="click">
+    <!-- min : degerin asgısı yazılırsa kabul etmez!-->
+    <label for="maas">Maaş</label>
+    <input id="maas" type="number" name="maas" min="1000" max="15000">
+    <input type="submit" value="click">
+    <br>
+</form>
+
+</html>

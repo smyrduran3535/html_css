@@ -1,0 +1,37 @@
+.baslik {
+    color: deeppink;
+    text-align: center;
+}
+
+p {
+    color: cyan;
+}
+
+body {
+    background-color: rgb(185, 89, 111);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(7, 117, 32);
+}
+
+a :hover {
+    background-color: yellow;
+    color: olive;
+
+}
+
+
+.price-old {
+    text-decoration: line-through;
+}
+
+.ders {
+    list-style-type: "❤️";
+    line-height: 2rem;
+}
+
+a:visited {
+    color: darkslategray;
+}
