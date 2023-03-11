@@ -1,0 +1,22 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: turquoise;
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+}
+
+header.title {
+    display: flex;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0%;
+}

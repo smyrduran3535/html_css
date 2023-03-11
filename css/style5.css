@@ -1,0 +1,17 @@
+.kutu1 {
+    background-color: red;
+    height: 50vh;
+    width: 70%;
+}
+
+.kutu2 {
+    background-color: yellow;
+    height: 70px;
+    width: 80%;
+}
+
+.kutu3 {
+    background-color: aqua;
+    height: 70px;
+    width: 70vw;
+}

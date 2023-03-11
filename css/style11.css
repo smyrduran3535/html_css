@@ -1,0 +1,40 @@
+.navbar ul li {
+    font-weight: 900;
+    color: red;
+}
+
+.mesaj {
+    border: 5px solid crimson;
+    display: inline-block;
+    padding: auto;
+
+}
+
+.son {
+    border: 5px solid red;
+    display: inline block;
+    color: blue;
+    padding: auto;
+}
+
+.son1 {
+    border: 5px solid red;
+    border-radius: 20px;
+    display: inline block;
+    color: blue;
+    padding: auto;
+}
+
+.son2 {
+    border-bottom: 5px solid red;
+    display: inline block;
+    color: blue;
+    padding: auto;
+}
+
+.son3 {
+    border-left: 5px solid red;
+    display: inline block;
+    color: blue;
+    padding: auto;
+}
