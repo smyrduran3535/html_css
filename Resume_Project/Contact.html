@@ -30,23 +30,28 @@
     </header>
 
     <main>
-        <div class="home">
-            <div class="profile">
-                <img src="img/pexels-moose-photos-1586996.jpg" alt="" />
-            </div>
-            <div class="description">
-                <h1>John Doe</h1>
-                <p>
-                    I am a web developer with 7 years of experience designing and
-                    developing user interfaces, testing, debugging and training staff in
-                    eCommerce technologies. I have the ability to optimize web functions
-                    that improve data retrieval and workflow efficiency.
-                </p>
-                <div class="toolbar">
-                    <a href="resume.html">Resume</a>
-                    <a href="contact.html">Contact</a>
+        <h1><span></span> Contact</h1>
+
+        <div class="card">
+            <form action="https://formsubmit.co/john@doe.com" method="POST" target="_blank">
+                <div class="form-row">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname" required />
                 </div>
-            </div>
+                <div class="form-row">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" required />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="me@example.com" required />
+                </div>
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
         </div>
     </main>
 
